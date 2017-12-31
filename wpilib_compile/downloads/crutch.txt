@@ -1,0 +1,2 @@
+21,21s/\s*\(lib[^\.]*.so\)\([^ ]*\)\s*/if [ ! -f $(SHAREDIR)\/\1 ]; then ln -T
+$(SHAREDIR)\/\1\2 $(SHAREDIR)\/\1; fi/g
